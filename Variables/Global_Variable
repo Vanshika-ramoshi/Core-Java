@@ -1,0 +1,26 @@
+//		GLOBAL VARIABLE 
+package variables;
+
+   public class Country { // India
+
+			static String language = "Hindi";
+			
+//			 String language; global Variable only Declaration 
+
+			public static void main(String[] args) { // State MH
+
+				String lang = "marathi"; // Local Variable
+				System.out.println("Own Lang of MH  --> " + lang);
+				System.out.println(language);
+				System.out.println("----------------------");
+				Country.main2();
+
+			}
+
+			public static void main2() { // Telengana
+				String lang = "Telegu";
+				System.out.println("Own Lang of T --> " + lang);
+				System.out.println(language);
+			}
+		
+}
