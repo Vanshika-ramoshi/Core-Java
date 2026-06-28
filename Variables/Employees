@@ -1,0 +1,40 @@
+package variables;
+
+public class Employee {
+	
+	public static void main(String []args) {
+		
+
+		        int empId = 101;
+		        String empName = "Vanshika";
+		        int age = 22;
+		        char gender = 'F';
+		        String department = "IT";
+		        String designation = "Software Developer";
+		        double salary = 50000.50;
+		        long phone = 9876543210L;
+		        String email = "vanshika@gmail.com";
+		        String city = "Pune";
+		        String state = "Maharashtra";
+		        String country = "India";
+		        boolean isPermanent = true;
+		        float experience = 2.5f;
+		        char grade = 'A';
+
+		        System.out.println("Employee ID: " + empId);
+		        System.out.println("Employee Name: " + empName);
+		        System.out.println("Age: " + age);
+		        System.out.println("Gender: " + gender);
+		        System.out.println("Department: " + department);
+		        System.out.println("Designation: " + designation);
+		        System.out.println("Salary: " + salary);
+		        System.out.println("Phone Number: " + phone);
+		        System.out.println("Email: " + email);
+		        System.out.println("City: " + city);
+		        System.out.println("State: " + state);
+		        System.out.println("Country: " + country);
+		        System.out.println("Permanent Employee: " + isPermanent);
+		        System.out.println("Experience: " + experience + " years");
+		        System.out.println("Grade: " + grade);
+		}
+}
